@@ -1,4 +1,4 @@
-Event Reg
+Event Manager
 =========
 
 This is an Angular app that manages events and allows for voting on sessions
