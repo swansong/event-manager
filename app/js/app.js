@@ -1,3 +1,3 @@
 'use strict';
 
-var eventManager = angular.module('eventMananger', []);
+var eventManager = angular.module('eventManager', []);
