@@ -5,7 +5,7 @@ eventManager.controller('EventController',
 
     $scope.event = {
       name: 'Sample Event 1',
-      date: '1/1/2015',
+      date: 11123876123498,
       time: '12:00pm',
       location: {
         address: 'The house of ur mom',
@@ -20,6 +20,7 @@ eventManager.controller('EventController',
           name: 'Testy1',
           creator: 'Bob Saget',
           duration: '1 hour',
+          price: 300.999,
           level: 'Babby',
           upvotes: 0,
           abstract: 'How to sample the right wine'
@@ -28,7 +29,8 @@ eventManager.controller('EventController',
           name: 'Testy2',
           creator: 'Bob Saget',
           duration: '1 hour',
-          level: 'Intermeidate',
+          price: 300,
+          level: 'Intermediate',
           upvotes: 0,
           abstract: 'How to sample a Daft Punk Song'
         },
@@ -36,6 +38,7 @@ eventManager.controller('EventController',
           name: 'Testy3',
           creator: 'Bob Saget',
           duration: '1 hour',
+          price: 1000.2220055732987,
           level: 'Advanced',
           upvotes: 0,
           abstract: 'How to sample a new partner each night'
@@ -49,6 +52,7 @@ eventManager.controller('EventController',
     $scope.downvoteSession = function(session){
       session.upvotes--;
     };
+    $scope.sortorder = 'name';
     
   }
 );
